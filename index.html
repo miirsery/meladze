@@ -27,82 +27,133 @@
 </head>
 
 <body>
-	<header class="header" id="header">
-		<div class="container">
-			<div class="header-menu d-flex">
-				<ul class="header-menu__link">
-					<li class="header-menu__btn"><a href="about-music.html">БИОГРАФИЯ</a></li>
-					<li class="header-menu__btn"><a href="tours.html">ТУРЫ</a></li>
-				</ul>
-				<!--noindex-->
-				<div class="header-menu__sources">
-					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
-						class="footer-networks__list">
-						<img src="img/youtube.svg" alt="">
-					</a>
-					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
-						class="footer-networks__list">
-						<img src="img/inst.svg" alt="">
-					</a>
-					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
-						class="footer-networks__list">
-						<img src="img/vk.svg" alt="">
-					</a>
-				</div>
-				<!--/noindex-->
-				<ul class="header-menu__link">
-					<li class="header-menu__btn header-menu__btn_right">
-						<a class="header-menu__btn_text" href="contacts.html">МЕДИА</a>
-						<ul class="header-sub-menu__link">
-							<li class="header-sub-menu__btn">
-								<a href="music.html">музыка</a>
+	<div class="hero-main">
+		<header class="header" id="header">
+			<div class="container hero-main__wrapper">
+				<div class="header-menu d-flex">
+					<ul class="header-menu__link">
+						<li class="header-menu__btn"><a href="about-music.html">БИОГРАФИЯ</a></li>
+						<li class="header-menu__btn"><a href="tours.html">ТУРЫ</a></li>
+					</ul>
+					<!--noindex-->
+					<div class="header-menu__sources">
+						<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+							class="footer-networks__list">
+							<img src="img/youtube.svg" alt="">
+						</a>
+						<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+							class="footer-networks__list">
+							<img src="img/inst.svg" alt="">
+						</a>
+						<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+							class="footer-networks__list">
+							<img src="img/vk.svg" alt="">
+						</a>
+					</div>
+					<!--/noindex-->
+					<ul class="header-menu__link">
+						<li class="header-menu__btn header-menu__btn_right">
+							<a class="header-menu__btn_text" href="contacts.html">МЕДИА</a>
+							<ul class="header-sub-menu__link">
+								<li class="header-sub-menu__btn">
+									<a href="music.html">музыка</a>
+								</li>
+								<li class="header-sub-menu__btn">
+									<a href="gallery.html">галерея</a>
+								</li>
+								<li class="header-sub-menu__btn">
+									<a href="video.html">видео</a>
+								</li>
+							</ul>
+						</li>
+						<li class="header-menu__btn"><a href="contacts.html">КОНТАКТЫ</a></li>
+					</ul>
+					<!-- <button type="button" class="menu-gb">
+						<ul class="gb-menu">
+							<li class="gb-menu__list">
+								<a href="about-music.html">БИОГРАФИЯ</a>
 							</li>
-							<li class="header-sub-menu__btn">
-								<a href="gallery.html">галерея</a>
+							<li class="gb-menu__list">
+								<a href="tours.html">ТУРЫ</a>
 							</li>
-							<li class="header-sub-menu__btn">
-								<a href="video.html">видео</a>
+							<li class="gb-menu__list">
+								<a href="">МЕДИАК</a>
+							</li>
+							<li class="gb-menu__list">
+								<a href="contacts.html">КОНТАКТЫ</a>
 							</li>
 						</ul>
-					</li>
-					<li class="header-menu__btn"><a href="contacts.html">КОНТАКТЫ</a></li>
-				</ul>
-				<button type="button" class="menu-gb">
-					<ul class="gb-menu">
-						<li class="gb-menu__list">
-							<a href="about-music.html">БИОГРАФИЯ</a>
-						</li>
-						<li class="gb-menu__list">
-							<a href="tours.html">ТУРЫ</a>
-						</li>
-						<li class="gb-menu__list">
-							<a href="">МЕДИАК</a>
-						</li>
-						<li class="gb-menu__list">
-							<a href="contacts.html">КОНТАКТЫ</a>
-						</li>
-					</ul>
-				</button>
-			</div>
-
-			<div class="header-title">
-				<div class="img-title">
-					<img src="img/photo.png" alt="валерий меладзе" class="img-title__photo">
-					<img src="img/photo-2.png" alt="валерий меладзе" class="img-title__photo_long">
+					</button> -->
 				</div>
-				<div class="text-title">
-					<img class="text-title__img" src="./img/logo.png" alt="logo">
-					<a href="tours.html" class="btn__title">СМОТРЕТЬ АФИШУ</a>
-					<a href="gallery.html">
-						<div class="btn__play">
-							<img src="./img/polygon.png" alt="play">
+				<div class="wrap">
+					<div class="wrap__photo">
+						<picture>
+							<source class="wrap__photo-long" media="(min-width: 1200px)" srcset="./img/photo.png">
+							<img class="wrap__photo-short" src="./img/photo-2.png" alt="Meladze">
+						</picture>
+					</div>
+					<div class="wrap__info">
+						<div class="wrap__title">
+							<img src="./img/logo.png" alt="Meladze">
 						</div>
-					</a>
-					<img src="img/logo.svg" class="logo-img " alt="logo">
+						<div class="wrap__buttons">
+							<a href="tours.html" class="wrap__button-title">СМОТРЕТЬ АФИШУ</a>
+							<a href="gallery.html" class="wrap__button-gallery">
+								<img src="./img/polygon.png" alt="play">
+							</a>
+						</div>
+					</div>
+
 				</div>
+				<!-- <div class="header-title">
+					<div class="img-title">
+						<img src="img/photo.png" alt="валерий меладзе" class="img-title__photo">
+						<img src="img/photo-2.png" alt="валерий меладзе" class="img-title__photo_long">
+					</div>
+					<div class="text-title">
+						<img class="text-title__img" src="./img/logo.png" alt="logo">
+						<a href="tours.html" class="btn__title">СМОТРЕТЬ АФИШУ</a>
+						<a href="gallery.html">
+							<div class="btn__play">
+								<img src="./img/polygon.png" alt="play">
+							</div>
+						</a>
+						<img src="img/logo.svg" class="logo-img " alt="logo">
+					</div>
+				</div> -->
 			</div>
-		</div>
-	</header>
+		</header>
+		<footer class="footer footer-main">
+			<div class="container">
+				<ul class="footer-items">
+					<li class="footer-item">
+						<div class="footer-item__icon">
+							<img src="./img/bio-icon.svg" alt="Bio">
+						</div>
+						<a href="about-music.html" class="footer-item__link">БИОГРАФИЯ</a>
+					</li>
+					<li class="footer-item">
+						<div class="footer-item__icon">
+							<img src="./img/tours-icon.svg" alt="Bio">
+						</div>
+						<a href="tours.html" class="footer-item__link">ТУРЫ</a>
+					</li>
+					<li class="footer-item">
+						<div class="footer-item__icon">
+							<img src="./img/meida-icon.svg" alt="Bio">
+						</div>
+						<a href="" class="footer-item__link">МЕДИА</a>
+					</li>
+					<li class="footer-item">
+						<div class="footer-item__icon">
+							<img src="./img/contacts-icon.svg" alt="Bio">
+						</div>
+						<a href="contacts.html" class="footer-item__link">КОНТАКТЫ</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
 </body>
 <!-- Jquery -->
 <script src="./js/jquery-1.12.4.min.js"></script>
