@@ -393,6 +393,17 @@ a:hover {
     justify-content: space-between;
     flex-direction: column;
 }
+.footer__item-menu {
+    display: none;
+}
+.footer__item-media {
+    border: 0;
+    background-color: transparent;
+}
+.footer__item-media span {
+    font-size: 12px;
+    color: #fff;
+}
 .footer-item__icon {
     width: 32px;
     height: 32px;
