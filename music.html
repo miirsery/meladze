@@ -73,7 +73,6 @@
 							<li class="header-sub-menu__btn">
 								<a href="music.html">музыка</a>
 							</li>
-
 							<li class="header-sub-menu__btn">
 								<a href="video.html">видео</a>
 							</li>
@@ -84,8 +83,11 @@
 			</div>
 			<div class="header-title header-music-title">
 				<div class="img-title">
-					<img src="img/photo-12(1).png" alt="валерий меладзе" class="img-title__photo">
-					<img src="img/photo-2.png" alt="валерий меладзе" class="img-title__photo_long">
+					<picture>
+						<source class="img-title__photo-long" media="(min-width: 1200px)" srcset="./img/photo-12.png">
+						<img class="img-title__photo-short" src="./img/photo-12(1).png" alt="Meladze">
+					</picture>
+					<!-- <img src="img/photo-2.png" alt="валерий меладзе" class="img-title__photo_long"> -->
 				</div>
 				<div class="text-title text-music-title">
 					<img src="./img/meladze-3.png" alt="Meladze">
