@@ -33,29 +33,13 @@
 <body>
 	<header class="header-tours">
 		<div class="container-tours__box d-sm-flex">
+			
 			<div class="tours-name">
 				<div class="tours-name__img">
 					<img src="./img/meladze.png" alt="Melaeze">
 				</div>
 				<!-- <div class="header-tours__logo"></div> -->
 			</div>
-			<button type="button" class="menu-gb">
-				<ul class="gb-menu">
-					<li class="gb-menu__list">
-						<a href="about-music.html">БИОГРАФИЯ</a>
-					</li>
-					<li class="gb-menu__list">
-						<a href="tours.html">ТУРЫ</a>
-					</li>
-					<li class="gb-menu__list">
-						<a href="">МЕДИАК</a>
-					</li>
-					<li class="gb-menu__list">
-						<a href="contacts.html">КОНТАКТЫ</a>
-					</li>
-				</ul>
-			</button>
-
 			<div class="container-tours__box_img">
 				<img src="img/photo-3.png" alt="" class="container-tours__box_img">
 			</div>
@@ -214,20 +198,40 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer">
+	<footer class="footer footer-main">
 		<div class="container">
 			<ul class="footer-items">
 				<li class="footer-item">
-					<p>Главная</p>
+					<div class="footer-item__icon">
+						<img src="./img/bio-icon.svg" alt="Bio">
+					</div>
+					<a href="about-music.html" class="footer-item__link">БИОГРАФИЯ</a>
 				</li>
 				<li class="footer-item">
-					<p>Медия</p>
+					<div class="footer-item__icon">
+						<img src="./img/tours-icon.svg" alt="Bio">
+					</div>
+					<a href="tours.html" class="footer-item__link">ТУРЫ</a>
 				</li>
+				<button class="footer-item footer__item-media">
+					<div class="footer-item__icon">
+						<img src="./img/meida-icon.svg" alt="Bio">
+					</div>
+					<span>Медиа</span>
+					<ul class="footer__item-menu">
+						<li class="footer__item-menu__item"><a href="./music.html" class="footer__item-menu__link">Музыка</a>
+						</li>
+						<li class="footer__item-menu__item"><a href="./gallery.html" class="footer__item-menu__link">Галерея</a>
+						</li>
+						<li class="footer__item-menu__item"><a href="./video.html" class="footer__item-menu__link">Видео</a>
+						</li>
+					</ul>
+				</button>
 				<li class="footer-item">
-					<p>Контакты</p>
-				</li>
-				<li class="footer-item">
-					<p>Туры</p>
+					<div class="footer-item__icon">
+						<img src="./img/contacts-icon.svg" alt="Bio">
+					</div>
+					<a href="contacts.html" class="footer-item__link">КОНТАКТЫ</a>
 				</li>
 			</ul>
 		</div>
