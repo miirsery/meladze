@@ -387,7 +387,6 @@ a:hover {
     left:  -75%;
     width: 100px;
     background-color: rgb(31, 31, 31);
-    /* animation: mediaAnimatons 0.3s ease-in-out 1; */
     z-index: 10;
 }
 .footer__item-menu__item {
@@ -5294,14 +5293,3 @@ a {
         bottom: -14rem;
     }
 }
-
-/* @keyframes mediaAnimatons {
-    0% {
-        opacity: 0;
-        transform: translateY(50%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-} */
