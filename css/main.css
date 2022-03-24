@@ -2,51 +2,82 @@
 
 @font-face {
     font-family: "TT Norms";
-    src: url("TTNorms-ExtraBold.eot");
-    src: local("TT Norms ExtraBold"), local("TTNorms-ExtraBold"),
-        url("TTNorms-ExtraBold.eot?#iefix") format("embedded-opentype"), url("TTNorms-ExtraBold.woff2") format("woff2"),
-        url("TTNorms-ExtraBold.woff") format("woff"), url("TTNorms-ExtraBold.ttf") format("truetype");
+    src: url("../TTNorms-ExtraBold.eot");
+    src: local("../TT Norms ExtraBold"), local("TTNorms-ExtraBold"),
+        url("../TTNorms-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("TTNorms-ExtraBold.woff2") format("woff2"), url("../TTNorms-ExtraBold.woff") format("woff"),
+        url("TTNorms-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TT Norms";
-    src: url("TTNorms-Bold.eot");
-    src: local("TT Norms Bold"), local("TTNorms-Bold"), url("TTNorms-Bold.eot?#iefix") format("embedded-opentype"),
-        url("TTNorms-Bold.woff2") format("woff2"), url("TTNorms-Bold.woff") format("woff"),
-        url("TTNorms-Bold.ttf") format("truetype");
+    src: url("../TTNorms-Bold.eot");
+    src: local("TT Norms Bold"), local("TTNorms-Bold"), url("../TTNorms-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../TTNorms-Bold.woff2") format("woff2"), url("../TTNorms-Bold.woff") format("woff"),
+        url("../TTNorms-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TT Norms";
-    src: url("TTNorms-Medium.eot");
-    src: local("TT Norms Medium"), local("TTNorms-Medium"), url("TTNorms-Medium.eot?#iefix") format("embedded-opentype"),
-        url("TTNorms-Medium.woff2") format("woff2"), url("TTNorms-Medium.woff") format("woff"),
-        url("TTNorms-Medium.ttf") format("truetype");
+    src: url("../TTNorms-Medium.eot");
+    src: local("TT Norms Medium"), local("../TTNorms-Medium"),
+        url("../TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("../TTNorms-Medium.woff2") format("woff2"),
+        url("../TTNorms-Medium.woff") format("woff"), url("../TTNorms-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TT Norms";
-    src: url("TTNorms-Regular.eot");
-    src: local("TT Norms Regular"), local("TTNorms-Regular"),
-        url("TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("TTNorms-Regular.woff2") format("woff2"),
-        url("TTNorms-Regular.woff") format("woff"), url("TTNorms-Regular.ttf") format("truetype");
+    src: url("../TTNorms-Regular.eot");
+    src: local("../TT Norms Regular"), local("TTNorms-Regular"),
+        url("../TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("TTNorms-Regular.woff2") format("woff2"),
+        url("../TTNorms-Regular.woff") format("woff"), url("TTNorms-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Fyodor-Bold";
-    src: url("Fyodor-Bold.eot");
-    src: local("Fyodor Bold"), local("Fyodor-Bold"), url("Fyodor-Bold.eot?#iefix") format("embedded-opentype"),
-        url("Fyodor-Bold.woff2") format("woff2"), url("Fyodor-Bold.woff") format("woff"),
-        url("Fyodor-Bold.svg") format("svg"), url("Fyodor-Bold.ttf") format("truetype");
+    src: url("../Fyodor-Bold.eot");
+    src: local("../Fyodor Bold"), local("Fyodor-Bold"), url("Fyodor-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../Fyodor-Bold.woff2") format("woff2"), url("Fyodor-Bold.woff") format("woff"),
+        url("../Fyodor-Bold.svg") format("svg"), url("Fyodor-Bold.ttf") format("truetype");
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/benzin-bold.ttf") format("truetype");
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -398,7 +429,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100px;
-    transform: translate(-25%, -100%);
+    transform: translate(-10%, -100%);
     background-color: rgb(31, 31, 31);
     z-index: 10;
 }
@@ -464,7 +495,7 @@ a:hover {
 }
 
 .hero-main__wrapper .logo-img {
-    right: 30%;
+    right: 46%;
     bottom: 2%;
 }
 .about-music__box {
@@ -492,6 +523,10 @@ a:hover {
     position: relative;
     left: 21%;
     top: 10%;
+}
+
+.footer__item-media .footer-item__link {
+    font-size: 12px;
 }
 
 /*  Responsive  */
@@ -1236,6 +1271,15 @@ a:hover {
 .footer__wrapper {
     background-color: #fff;
 }
+.video-title .container {
+    position: relative;
+}
+.video-title .logo-img {
+    bottom: 0;
+    left: 37%;
+    right: 0;
+    top: 14%;
+}
 /*  Responsive  */
 @media (max-width: 1690px) {
     .container-tours__box_img {
@@ -1370,7 +1414,7 @@ a:hover {
         right: 2%;
     }
     .tours-title__img-block {
-        margin-left: -30%;
+        margin-left: -34%;
     }
 }
 
@@ -1448,6 +1492,9 @@ a:hover {
     .tours-title__img:last-child {
         max-width: 150px;
         margin-left: 5rem;
+    }
+    .tours-title__img-block {
+        margin-left: -24%;
     }
 }
 /* Small: 576px - 767px */
@@ -4847,7 +4894,7 @@ a {
     right: 16%;
 }
 .wrap__title img {
-    width: 100%;
+    width: 600px;
     height: 100%;
 }
 .wrap__photo {
@@ -4857,7 +4904,7 @@ a {
     bottom: -5px;
 }
 .wrap__photo-short {
-    width: 140%;
+    width: 700px;
     height: 100%;
 }
 .wrap__photo-long {
@@ -4942,25 +4989,36 @@ a {
 .carousel-indicators {
     max-width: 100%;
 }
-
+.header-tours .logo-img {
+    left: 12%;
+    right: 0;
+    margin: 0;
+    bottom: 10%;
+    z-index: 2;
+}
+.contacts-box .logo-img {
+    top: 46%;
+    left: 92%;
+}
 @media (min-width: 1366px) {
     .wrap__title {
-        right: -4rem;
-        top: -4rem;
+        right: 14rem;
+        top: -2rem;
     }
     .wrap__buttons {
-        left: 80%;
+        left: 60%;
         bottom: -3%;
     }
     .about-music__box .logo-img {
-        left: 37%;
-        bottom: 3%;
+        left: 36%;
+        bottom: -12%;
+        top: 84%;
     }
 }
 
 @media (max-width: 1600px) {
     .wrap__photo-short {
-        width: 130%;
+        width: 556px;
     }
 }
 @media (max-width: 1568px) {
@@ -4976,7 +5034,10 @@ a {
     .wrap__photo {
         left: -14%;
     }
-
+    .hero-main__wrapper .logo-img {
+        right: 38%;
+        bottom: 2%;
+    }
     .video__indicators {
         left: 4%;
     }
@@ -4985,6 +5046,9 @@ a {
     }
     .iframe {
         max-width: 733px;
+    }
+    .header-tours .logo-img {
+        left: 3%;
     }
 }
 @media (max-width: 1400px) {
@@ -5028,6 +5092,14 @@ a {
     }
     .video-carousel {
         width: 100%;
+    }
+    .video-title .logo-img {
+        left: 43%;
+        top: 14%;
+    }
+    .contacts-box .logo-img {
+        top: 46%;
+        left: 89%;
     }
 }
 @media (max-width: 1200px) {
@@ -5080,6 +5152,9 @@ a {
     .video-title__video {
         width: 296px;
         left: 29%;
+    }
+    .contacts-box .logo-img {
+        display: none;
     }
 }
 @media (max-width: 991px) {
@@ -5143,6 +5218,12 @@ a {
     }
     .video__indicators {
         left: 35%;
+    }
+    .header-tours .logo-img {
+        display: none;
+    }
+    .video-title .logo-img {
+        left: 61%;
     }
 }
 @media (max-width: 800px) {
@@ -5209,6 +5290,9 @@ a {
     .video-title__video {
         width: 230px;
     }
+    .video-title .logo-img {
+        left: 69%;
+    }
 }
 @media (max-width: 766px) {
     .wrap__info {
@@ -5238,6 +5322,9 @@ a {
     }
     .footer-video {
         padding-top: 4rem;
+    }
+    .video-title .logo-img {
+        display: none;
     }
 }
 @media (max-width: 766px) {
@@ -5478,11 +5565,7 @@ a {
         left: 25%;
     }
 }
-@media (max-height: 745px) {
-    .wrap__buttons {
-        bottom: -24rem;
-    }
-}
+
 @media (max-height: 680px) {
     .wrap__buttons {
         left: 165%;
