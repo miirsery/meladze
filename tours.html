@@ -32,8 +32,49 @@
 
 <body>
 	<header class="header-tours">
+		<div class="container">
+			<div class="header-menu d-flex">
+				<ul class="header-menu__link">
+					<li class="header-tours__btn header-menu__btn"><a href="about-music.html">БИОГРАФИЯ</a></li>
+					<li class="header-tours__btn header-menu__btn"><a href="tours.html">ТУРЫ</a></li>
+				</ul>
+				<!--noindex-->
+				<div class="header-menu__sources">
+					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+						class="footer-networks__list">
+						<img src="img/youtube.svg" alt="">
+					</a>
+					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+						class="footer-networks__list">
+						<img src="img/inst.svg" alt="">
+					</a>
+					<a href="" class="header-menu__img" rel="nofollow noopener noreferrer" target="_blank"
+						class="footer-networks__list">
+						<img src="img/vk.svg" alt="">
+					</a>
+				</div>
+				<!--/noindex-->
+				<ul class="header-menu__link header-tours__wrapper">
+					<li class="header-menu__btn header-tours__btn header-menu__btn_right">
+						<a class="header-menu__btn_text" href="contacts.html">МЕДИА</a>
+						<ul class="header-sub-menu__link">
+							<li class="header-sub-menu__btn">
+								<a href="music.html">музыка</a>
+							</li>
+							<li class="header-sub-menu__btn">
+								<a href="gallery.html">галерея</a>
+							</li>
+							<li class="header-sub-menu__btn">
+								<a href="video.html">видео</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header-menu__btn header-tours__btn"><a href="contacts.html">КОНТАКТЫ</a></li>
+				</ul>
+			</div>
+		</div>
 		<div class="container-tours__box d-sm-flex">
-			
+
 			<div class="tours-name">
 				<div class="tours-name__img">
 					<img src="./img/meladze.png" alt="Melaeze">
@@ -201,37 +242,46 @@
 	<footer class="footer footer-main">
 		<div class="container">
 			<ul class="footer-items">
-				<li class="footer-item">
-					<div class="footer-item__icon">
-						<img src="./img/bio-icon.svg" alt="Bio">
-					</div>
-					<a href="about-music.html" class="footer-item__link">БИОГРАФИЯ</a>
+				<li class="footer-item__wrapper">
+					<a class="footer-item" href="./about-music.html">
+						<div class="footer-item__icon">
+							<img src="./img/bio-icon.svg" alt="Bio">
+						</div>
+						<span class="footer-item__link">БИОГРАФИЯ</span>
+					</a>
 				</li>
-				<li class="footer-item">
-					<div class="footer-item__icon">
-						<img src="./img/tours-icon.svg" alt="Bio">
-					</div>
-					<a href="tours.html" class="footer-item__link">ТУРЫ</a>
+				<li class="footer-item__wrapper">
+					<a class="footer-item" href="./tours.html">
+						<div class="footer-item__icon">
+							<img src="./img/tours-icon.svg" alt="Bio">
+						</div>
+						<span class="footer-item__link">ТУРЫ</span>
+					</a>
 				</li>
 				<button class="footer-item footer__item-media">
 					<div class="footer-item__icon">
 						<img src="./img/meida-icon.svg" alt="Bio">
 					</div>
-					<span>Медиа</span>
+					<span class="footer-item__link">МЕДИА</span>
 					<ul class="footer__item-menu">
-						<li class="footer__item-menu__item"><a href="./music.html" class="footer__item-menu__link">Музыка</a>
+						<li class="footer__item-menu__item"><a href="./music.html"
+								class="footer__item-menu__link">Музыка</a>
 						</li>
-						<li class="footer__item-menu__item"><a href="./gallery.html" class="footer__item-menu__link">Галерея</a>
+						<li class="footer__item-menu__item"><a href="./gallery.html"
+								class="footer__item-menu__link">Галерея</a>
 						</li>
-						<li class="footer__item-menu__item"><a href="./video.html" class="footer__item-menu__link">Видео</a>
+						<li class="footer__item-menu__item"><a href="./video.html"
+								class="footer__item-menu__link">Видео</a>
 						</li>
 					</ul>
 				</button>
-				<li class="footer-item">
-					<div class="footer-item__icon">
-						<img src="./img/contacts-icon.svg" alt="Bio">
-					</div>
-					<a href="contacts.html" class="footer-item__link">КОНТАКТЫ</a>
+				<li class="footer-item__wrapper">
+					<a class="footer-item" href="./contacts.html">
+						<div class="footer-item__icon">
+							<img src="./img/contacts-icon.svg" alt="Bio">
+						</div>
+						<span class="footer-item__link">КОНТАКТЫ</span>
+					</a>
 				</li>
 			</ul>
 		</div>
