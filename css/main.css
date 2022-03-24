@@ -267,6 +267,7 @@ a:hover {
     position: absolute;
     left: 0;
     top: 20px;
+    z-index: 2;
     padding-top: 20px;
 }
 
