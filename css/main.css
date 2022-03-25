@@ -2471,7 +2471,13 @@ a {
 }
 .music-album__title {
     width: 255px;
+    position: relative;
     margin-bottom: 53px;
+}
+.music-album__title-alb {
+    position: absolute;
+    left: 0;
+    top: 50%;
 }
 .music-album__title img {
     width: 100%;
@@ -5012,7 +5018,7 @@ a {
     position: fixed;
     top: 41px;
     right: 50px;
-    z-index: 1;
+    z-index: 130;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -5038,7 +5044,7 @@ a {
     left: -5px;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 140;
 
     -webkit-touch-callout: none;
 }
@@ -5051,7 +5057,7 @@ a {
     position: relative;
     background: #cdcdcd;
     border-radius: 3px;
-    z-index: 1;
+    z-index: 130;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
         opacity 0.55s ease;
@@ -5085,6 +5091,7 @@ a {
     width: 300px;
     margin: -100px 0 0 -10rem;
     padding: 50px;
+    z-index: 10;
     height: calc(100vh + 100px);
     padding-top: 125px;
     background: #4b4b4b;
@@ -5116,7 +5123,7 @@ a {
     }
     .wrap__buttons {
         left: 60%;
-        bottom: -3%;
+        top: 56%;
     }
     .about-music__box .logo-img {
         left: 36%;
@@ -5195,7 +5202,8 @@ a {
         width: 600px;
     }
     .wrap__buttons {
-        left: 90%;
+        left: 78%;
+        top: 45%;
     }
     .about-music__box .logo-img {
         left: 41%;
@@ -5308,8 +5316,8 @@ a {
         width: 83%;
     }
     .wrap__buttons {
-        left: 106%;
-        bottom: 75%;
+        left: 83%;
+        top: 34%;
     }
     .about-music__box .logo-img {
         display: none;
@@ -5360,7 +5368,7 @@ a {
         width: 400px;
     }
     .wrap__buttons {
-        left: 50%;
+        left: 92%;
         bottom: -27rem;
     }
     .wrap__button-gallery {
@@ -5435,8 +5443,8 @@ a {
         top: -80%;
     }
     .wrap__buttons {
-        left: 67%;
-        bottom: -31rem;
+        left: 70%;
+        top: 92%;
     }
     .wrap__title {
         top: -3rem;
@@ -5523,8 +5531,8 @@ a {
         width: 100%;
     }
     .wrap__buttons {
-        left: 91%;
-        bottom: -30rem;
+        left: 76%;
+        top: 92%;
     }
     .container {
         width: 520px;
@@ -5776,8 +5784,8 @@ a {
         transform: translate(-6%, -64%);
     }
     .wrap__buttons {
-        left: 165%;
-        bottom: -28rem;
+        left: 88%;
+        top: 92%;
     }
     .footer-item {
         height: 45px;
@@ -5851,8 +5859,8 @@ a {
         right: -0.4rem;
     }
     .wrap__buttons {
-        left: 165%;
-        bottom: -25rem;
+        left: 84%;
+        top: 92.3%;
     }
     .tours-name__img {
         right: 6%;
@@ -5942,15 +5950,15 @@ a {
     }
 }
 
-@media (max-height: 680px) {
+@media (max-width: 414px) and (max-height: 896px) {
     .wrap__buttons {
-        left: 165%;
-        bottom: -24rem;
+        left: 88%;
+        top: 92.6%;
     }
 }
-@media (max-width: 1024px) and (max-height: 600px) {
+@media (max-width: 375px) and (max-height: 676px) {
     .wrap__buttons {
-        left: 95%;
-        bottom: -14rem;
+        left: 88%;
+        top: 90.2%;
     }
 }
