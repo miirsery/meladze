@@ -5020,13 +5020,13 @@ a {
 #menuToggle a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    margin-bottom: 1rem;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
     transition: color 0.3s ease;
 }
 
 #menuToggle a:hover {
-    color: tomato;
+    color: #ce8558;
 }
 
 #menuToggle input {
@@ -5068,7 +5068,7 @@ a {
 #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #757575;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -5102,6 +5102,9 @@ a {
 
 #menuToggle input:checked ~ ul {
     transform: none;
+}
+#menu .active {
+    color: #ce8558;
 }
 .hero-main-body {
     overflow-y: hidden;
