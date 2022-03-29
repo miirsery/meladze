@@ -251,7 +251,7 @@ a:hover {
 .header-menu__btn .header-menu__btn_text:hover {
     color: #d79f82;
     border-bottom: 2px solid #d79f82;
-    width: 68px;
+    text-align: center;
     transition: color 0.5s ease;
     transition: border-bottom 0.5s ease;
 }
