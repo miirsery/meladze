@@ -165,6 +165,7 @@ a:hover {
 }
 .header-menu {
     padding: 40px 0 20px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -186,6 +187,7 @@ a:hover {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
+    color: #d79f82;
     font-size: 15px;
     line-height: 1.6em;
     letter-spacing: 0.135em;
@@ -498,7 +500,7 @@ a:hover {
 }
 
 .hero-main__wrapper .logo-img {
-    right: 46%;
+    right: 55%;
     bottom: 2%;
 }
 .about-music__box {
@@ -2360,6 +2362,11 @@ a {
 
 .text-contacts-title {
     top: -4rem;
+    margin-left: 6rem;
+}
+.about-music__box .text-contacts-title {
+    top: -4rem;
+    margin-left: -1rem;
 }
 /*  footer-contacts  */
 
@@ -2473,6 +2480,19 @@ a {
     width: 255px;
     position: relative;
     margin-bottom: 53px;
+    z-index: 1;
+    margin-left: 9rem;
+}
+.music-album__title::after {
+    content: "";
+    position: absolute;
+    left: -94%;
+    top: 50%;
+    transform: translateY(-50%) scale(0.5);
+    background: center/ cover no-repeat url("../img/albums.svg");
+    width: 375px;
+    height: 250px;
+    z-index: -1;
 }
 .music-album__title-alb {
     position: absolute;
@@ -2544,7 +2564,7 @@ a {
 }
 @media (max-width: 1400px) {
     .text-contacts-title {
-        margin: 0 auto;
+        margin: 0 auto 0 -1rem;
     }
 }
 
@@ -4930,10 +4950,11 @@ a {
 }
 
 .wrap__button-title {
+    font-family: "Open Sans";
     position: absolute;
     right: 0;
     display: block;
-    padding: 18px 40px 18px 40px;
+    padding: 18px 0 18px;
     background: #efefef;
     width: 294px;
     height: auto;
@@ -5116,6 +5137,55 @@ a {
 .hero-main-body {
     overflow-y: hidden;
 }
+.footer-box__menu {
+    display: flex;
+    align-items: center;
+    width: 47%;
+    justify-content: space-between;
+}
+.footer-box__item {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 155.68%;
+    letter-spacing: 0.135em;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(198, 198, 198, 0.54) 94.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.contacts-section .text-contacts-title {
+    top: -4rem;
+    margin-left: 13rem;
+}
+.header-menu__btn a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 155.68%;
+    letter-spacing: 0.135em;
+    background: linear-gradient(180deg, #e5b382 0%, #a76128 94.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.header-menu__btn .active {
+    color: #d79f82;
+    border-bottom: 2px solid #d79f82;
+    width: auto;
+    transition: color 0.5s ease;
+    transition: border-bottom 0.5s ease;
+}
+.header-music-title .text-music-title {
+    position: relative;
+    max-width: 900px;
+    left: -39%;
+    top: -9rem;
+}
 @media (min-width: 1366px) {
     .wrap__title {
         right: 14rem;
@@ -5148,7 +5218,7 @@ a {
         left: -14%;
     }
     .hero-main__wrapper .logo-img {
-        right: 38%;
+        right: 54%;
         bottom: 2%;
     }
     .video__indicators {
@@ -5169,6 +5239,13 @@ a {
     }
     .text-music-title img:last-child {
         width: 400px;
+    }
+    .contacts-section .text-contacts-title {
+        top: -4rem;
+        margin-left: 8rem;
+    }
+    .header-music-title .text-music-title {
+        left: -23%;
     }
 }
 @media (max-width: 1400px) {
@@ -5197,7 +5274,10 @@ a {
     .wrap__title img {
         width: 80%;
     }
-
+    .hero-main__wrapper .logo-img {
+        right: 44%;
+        bottom: 2%;
+    }
     .wrap__photo-short {
         width: 600px;
     }
@@ -5262,6 +5342,13 @@ a {
     .text-music-title {
         left: -30%;
         top: -3rem;
+    }
+    .contacts-section .text-contacts-title {
+        margin: 6px auto 0 7rem;
+    }
+    .header-music-title .text-music-title {
+        left: -16%;
+        top: -4rem;
     }
 }
 @media (max-width: 1024px) {
@@ -5437,6 +5524,9 @@ a {
         left: 3%;
         margin-bottom: -7rem;
     }
+    .music-album__title::after {
+        background: none;
+    }
 }
 @media (max-width: 766px) {
     .wrap__info {
@@ -5515,6 +5605,9 @@ a {
     .container-tours__box_img {
         right: -6%;
         margin-bottom: -1rem;
+    }
+    .footer-box__menu {
+        display: none;
     }
 }
 @media (max-width: 748px) {
