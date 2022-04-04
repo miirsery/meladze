@@ -2126,7 +2126,7 @@ a:hover {
 /*  music-player  */
 
 .music-player {
-    background: #181818;
+    background: #000;
     margin-top: -2px;
 }
 
@@ -2164,7 +2164,7 @@ a:hover {
 }
 
 .music-album {
-    background: rgba(19, 19, 19, 0.98);
+    background: #000;
 }
 
 .ellipse-out {
@@ -4913,7 +4913,7 @@ a {
 }
 .wrap {
     display: flex;
-    height: calc(100% - 100px);
+    height: calc(100% - 110px);
     align-items: flex-end;
 }
 .hero-main__wrapper {
@@ -4932,7 +4932,6 @@ a {
     max-width: 900px;
     position: relative;
     left: -21%;
-    bottom: -5px;
 }
 .wrap__photo-short {
     width: 650px;
@@ -4944,20 +4943,21 @@ a {
     height: 100%;
 }
 .wrap__buttons {
+    display: flex;
     position: absolute;
-    left: 70%;
-    bottom: -25%;
+    left: 64%;
+    bottom: 47%;
 }
 
 .wrap__button-title {
     font-family: "Open Sans";
-    position: absolute;
+    position: relative;
     right: 0;
     display: block;
     padding: 18px 0 18px;
     background: #efefef;
     width: 294px;
-    height: auto;
+    height: 67px;
     text-align: center;
     border-radius: 9px;
     font-weight: 600;
@@ -5009,8 +5009,8 @@ a {
     left: -10%;
 }
 .wrap__button-gallery {
-    position: absolute;
-    right: -6rem;
+    position: relative;
+    right: -2rem;
     top: 0;
     width: 61px;
     height: 67px;
@@ -5037,7 +5037,7 @@ a {
 #menuToggle {
     display: none;
     position: fixed;
-    top: 41px;
+    top: 50px;
     right: 50px;
     z-index: 130;
     -webkit-user-select: none;
@@ -5134,9 +5134,7 @@ a {
 #menu .active {
     color: #ce8558;
 }
-.hero-main-body {
-    overflow-y: hidden;
-}
+
 .footer-box__menu {
     display: flex;
     align-items: center;
@@ -5192,7 +5190,7 @@ a {
         top: -2rem;
     }
     .wrap__buttons {
-        left: 60%;
+        left: 44%;
         top: 56%;
     }
     .about-music__box .logo-img {
@@ -5282,7 +5280,7 @@ a {
         width: 600px;
     }
     .wrap__buttons {
-        left: 78%;
+        left: 58%;
         top: 45%;
     }
     .about-music__box .logo-img {
@@ -5350,6 +5348,10 @@ a {
         left: -16%;
         top: -4rem;
     }
+    .wrap__buttons {
+        left: 50%;
+        top: 39%;
+    }
 }
 @media (max-width: 1024px) {
     .container {
@@ -5403,8 +5405,8 @@ a {
         width: 83%;
     }
     .wrap__buttons {
-        left: 83%;
-        top: 34%;
+        left: 48%;
+        top: 30%;
     }
     .about-music__box .logo-img {
         display: none;
@@ -5455,8 +5457,8 @@ a {
         width: 400px;
     }
     .wrap__buttons {
-        left: 92%;
-        bottom: -27rem;
+        left: 32%;
+        top: 92%;
     }
     .wrap__button-gallery {
         width: 40px;
@@ -5466,10 +5468,9 @@ a {
         z-index: 0;
     }
     .wrap__info {
-        top: -72%;
-        left: -19%;
+        top: -74%;
+        left: -73%;
     }
-
     .header-music-title .img-title__photo {
         width: 400px;
         margin-top: 5rem;
@@ -5521,28 +5522,44 @@ a {
         left: 0rem;
     }
     .wrap__photo {
-        left: 3%;
-        margin-bottom: -7rem;
+        left: -24%;
+        margin-bottom: 0;
     }
     .music-album__title::after {
         background: none;
     }
+    .wrap__photo-short {
+        width: 650px;
+        height: 100%;
+    }
+    .about-music__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+    }
+    .contacts-section .text-contacts-title {
+        top: -4rem;
+        margin-left: 2rem;
+    }
+    .personal-biography {
+        margin: 50px auto 0;
+        width: 600px;
+    }
 }
 @media (max-width: 766px) {
     .wrap__info {
-        top: -80%;
+        top: -76%;
+        left: -52%;
     }
     .wrap__buttons {
-        left: 70%;
-        top: 92%;
+        left: 33%;
+        top: 92.2%;
     }
     .wrap__title {
         top: -3rem;
         right: -15%;
         width: 300px;
-    }
-    .wrap__photo {
-        bottom: -12px;
     }
     .header-music-title .text-title {
         left: -7%;
@@ -5609,6 +5626,9 @@ a {
     .footer-box__menu {
         display: none;
     }
+    .wrap__photo {
+        left: -25%;
+    }
 }
 @media (max-width: 748px) {
     .tours-name {
@@ -5620,18 +5640,28 @@ a {
         margin-left: -2rem;
         margin-top: -1rem;
     }
+    .wrap__info {
+        top: -70%;
+        left: -74%;
+    }
     .wrap__title img {
         width: 100%;
     }
     .wrap__buttons {
-        left: 76%;
-        top: 92%;
+        left: 27%;
+        top: inherit;
+        bottom: -0.2%;
+    }
+    .wrap__photo {
+        left: -24%;
+        margin-bottom: 7.1px;
     }
     .container {
         width: 520px;
     }
     .wrap__photo-short {
-        width: 110%;
+        width: 506px;
+        left: 22%;
     }
     .header-music-title .text-title {
         left: -2%;
@@ -5687,6 +5717,11 @@ a {
         left: -3%;
         margin-left: 2.4rem;
     }
+    .personal-biography {
+        margin: 50px auto 0;
+        width: auto;
+        max-width: 500px;
+    }
 }
 @media (max-width: 575px) {
     .text-music-title img:last-child {
@@ -5725,10 +5760,6 @@ a {
         left: -18%;
         top: -11rem;
     }
-    .wrap__photo {
-        left: 3%;
-        margin-bottom: -5rem;
-    }
 }
 
 @media (max-width: 570px) {
@@ -5740,15 +5771,24 @@ a {
         margin-top: -5rem;
     }
     .wrap__photo-short {
-        width: 100%;
+        width: 400px;
+        left: 13%;
+    }
+    .wrap__info {
+        top: -70%;
+        left: -29%;
+    }
+    .wrap__button-gallery {
+        right: 1rem;
     }
     .wrap__buttons {
-        left: 93%;
-        bottom: -30rem;
+        top: inherit;
+        bottom: 0%;
     }
     .wrap__photo {
         left: -12%;
-        bottom: -20px;
+        bottom: -21.8px;
+        margin-bottom: 2.7rem;
     }
     .header-music-title .text-title {
         top: -8rem;
@@ -5788,6 +5828,9 @@ a {
     }
     .music-album__content {
         justify-content: center;
+    }
+    .music-album__title {
+        margin-left: 5rem;
     }
 }
 @media (max-width: 550px) {
@@ -5857,28 +5900,36 @@ a {
     .text-music-title img:first-child {
         margin-top: 1rem;
     }
+    .contacts-box__text {
+        text-align: center;
+    }
+    .contacts-box__text .btn__contacts {
+        width: 70%;
+    }
 }
 @media (max-width: 450px) {
     .container {
         max-width: 350px;
     }
-    .wrap__photo {
-        left: -13%;
-        bottom: -16px;
+    .wrap__photo-short {
+        max-width: 380px;
+        bottom: -1px;
+        left: 10%;
     }
     .wrap__photo-short {
-        width: 300px;
+        width: 400px;
         bottom: -1px;
     }
     .wrap__title {
         position: absolute;
         top: 0;
-        left: 50%;
+        left: 140%;
         transform: translate(-6%, -64%);
     }
     .wrap__buttons {
-        left: 88%;
-        top: 92%;
+        left: 16%;
+        top: inherit;
+        bottom: 0;
     }
     .footer-item {
         height: 45px;
@@ -5916,12 +5967,18 @@ a {
         left: -28%;
     }
     .wrap__photo {
-        left: -11%;
-        margin-bottom: -3rem;
+        left: -19%;
+        margin-bottom: 16.2px;
+    }
+    .music-album__title {
+        margin-left: 3.3rem;
     }
 }
 
 @media (max-width: 390px) {
+    #menuToggle {
+        right: 23px;
+    }
     .wrap__title {
         transform: translate(-6%, -50%);
     }
@@ -5930,7 +5987,7 @@ a {
         bottom: -16px;
     }
     .wrap__photo-short {
-        width: 270px;
+        width: 300px;
     }
     .player {
         width: 340px;
@@ -5970,6 +6027,12 @@ a {
     .photo-15 {
         width: 290px;
     }
+    .wrap__button-title {
+        padding: 11px 0 8px;
+        font-size: 14px;
+        width: 253px;
+        height: 49px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -5988,9 +6051,6 @@ a {
     .wrap__button-title {
         width: 260px;
         font-size: 14px;
-    }
-    .wrap__button-gallery {
-        right: 0;
     }
     .player__title {
         font-size: 11px;
@@ -6041,17 +6101,42 @@ a {
         width: 240px;
         margin-left: 2.6rem;
     }
+    .wrap__button-gallery {
+        right: 22px;
+        width: 30px;
+        height: 30px;
+    }
+    .wrap__photo-short {
+        width: 270px;
+        left: 29%;
+    }
+    .contacts-section .text-contacts-title {
+        top: -4rem;
+        margin-left: 1rem;
+    }
+    .music-album__title {
+        margin-left: 3.3rem;
+    }
 }
 
 @media (max-width: 414px) and (max-height: 896px) {
     .wrap__buttons {
-        left: 88%;
-        top: 92.6%;
+        left: 12%;
+        top: inherit;
+        bottom: 0;
     }
 }
 @media (max-width: 375px) and (max-height: 676px) {
     .wrap__buttons {
-        left: 88%;
-        top: 90.2%;
+        left: 16%;
+        top: inherit;
+        bottom: 0;
+    }
+}
+@media (max-width: 338px) and (max-height: 676px) {
+    .wrap__buttons {
+        left: 7%;
+        top: inherit;
+        bottom: 0;
     }
 }
