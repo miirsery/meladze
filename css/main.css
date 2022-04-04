@@ -4913,7 +4913,7 @@ a {
 }
 .wrap {
     display: flex;
-    height: calc(100% - 110px);
+    height: calc(100% - 109px);
     align-items: flex-end;
 }
 .hero-main__wrapper {
