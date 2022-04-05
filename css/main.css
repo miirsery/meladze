@@ -5184,6 +5184,9 @@ a {
     left: -39%;
     top: -9rem;
 }
+.header-music #menuToggle {
+    top: 38px;
+}
 @media (min-width: 1366px) {
     .wrap__title {
         right: 14rem;
@@ -5832,6 +5835,9 @@ a {
     .music-album__title {
         margin-left: 5rem;
     }
+    .footer .header-menu__sources {
+        padding-bottom: 1rem;
+    }
 }
 @media (max-width: 550px) {
     .tours-title__img:first-child {
@@ -5972,6 +5978,10 @@ a {
     }
     .music-album__title {
         margin-left: 3.3rem;
+    }
+    .contacts-text {
+        margin-right: 0;
+        margin-bottom: 38px;
     }
 }
 
