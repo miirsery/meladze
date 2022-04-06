@@ -4936,7 +4936,6 @@ a {
 .wrap__photo-short {
     width: 650px;
     height: 100%;
-    bottom: -6px;
 }
 .wrap__photo-long {
     width: 100%;
@@ -5974,7 +5973,7 @@ a {
     }
     .wrap__photo {
         left: -19%;
-        margin-bottom: 16.2px;
+        margin-bottom: 24.2px;
     }
     .music-album__title {
         margin-left: 3.3rem;
