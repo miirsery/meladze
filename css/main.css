@@ -5977,7 +5977,7 @@ a {
     .wrap__photo {
         left: -19%;
         bottom: 3%;
-        margin-bottom: 24.2px;
+        margin-bottom: 5rem;
     }
     .music-album__title {
         margin-left: 3.3rem;
@@ -6022,8 +6022,9 @@ a {
         right: -0.4rem;
     }
     .wrap__buttons {
-        left: 84%;
-        top: 92.3%;
+        left: 20%;
+        top: inherit;
+        bottom: 0;
     }
     .tours-name__img {
         right: 6%;
