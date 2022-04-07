@@ -5525,7 +5525,7 @@ a {
     }
     .wrap__photo {
         left: -24%;
-        margin-bottom: 0;
+        margin-bottom: 6%;
     }
     .music-album__title::after {
         background: none;
@@ -5893,6 +5893,9 @@ a {
         left: 8%;
         margin-top: 16%;
     }
+    .contacts-section .text-contacts-title {
+        margin: 0;
+    }
 }
 
 @media (max-width: 474px) {
@@ -5928,8 +5931,8 @@ a {
     .wrap__title {
         position: absolute;
         top: 0;
-        left: 140%;
-        transform: translate(-6%, -64%);
+        left: 150%;
+        transform: translate(-11%, -64%);
     }
     .wrap__buttons {
         left: 16%;
@@ -6047,9 +6050,6 @@ a {
 @media (max-width: 350px) {
     .container {
         max-width: 320px;
-    }
-    .wrap__title {
-        transform: translate(1%, -50%);
     }
     .wrap__title img {
         width: 100%;
